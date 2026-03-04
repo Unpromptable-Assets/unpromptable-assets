@@ -12,18 +12,32 @@ function LinkedInIcon() {
   );
 }
 
+function SubstackIcon() {
+  return (
+    <svg
+      className="h-5 w-5 text-muted transition-colors hover:text-foreground"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" />
+    </svg>
+  );
+}
+
 const team = [
   {
     name: "James",
     role: "Strategy & Content",
     initials: "J",
     bio: "James brings the strategic vision and content expertise. He ensures every system we build is aligned with your business goals and market positioning.",
+    substackUrl: "https://unpromptable.substack.com/",
   },
   {
     name: "Jenny",
     role: "Builder & Developer",
     initials: "J",
     bio: "Jenny is the technical architect who turns strategy into working systems. She builds custom AI solutions that are reliable, maintainable, and tailored to your workflow.",
+    substackUrl: "https://buildtolaunch.substack.com/",
   },
 ];
 
@@ -54,8 +68,13 @@ export default function MeetTheTeam() {
                 </p>
                 <p className="mt-4 leading-relaxed text-muted">{member.bio}</p>
                 <div className="mt-5 flex justify-center">
-                  <a href="#" aria-label={`${member.name} LinkedIn`}>
-                    <LinkedInIcon />
+                  <a
+                    href={member.substackUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${member.name} Substack`}
+                  >
+                    <SubstackIcon />
                   </a>
                 </div>
               </div>
