@@ -36,3 +36,4 @@ Change the gold accent or any color in one place — the entire site updates.
 ## Deployment
 
 Auto-deploys to Vercel on push to `main`.
+
