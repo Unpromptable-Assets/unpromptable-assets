@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Unpromptable Assets
 
-## Getting Started
+Landing page for Unpromptable Assets — a WaaS (Workflow as a Service) consultancy that builds custom AI-powered automations for businesses.
 
-First, run the development server:
+## Tech Stack
+
+- **Next.js 16** with App Router
+- **React 19**
+- **Tailwind CSS v4**
+- **TypeScript**
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design Tokens
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+All colors and fonts are centralized in `src/app/globals.css`:
 
-## Learn More
+```css
+--color-background: #F5F5F5;
+--color-card: #FFFFFF;
+--color-foreground: #1A1A1A;
+--color-muted: #666666;
+--color-gold: #B08D57;
+--font-serif: Georgia, "Times New Roman", Times, serif;
+```
 
-To learn more about Next.js, take a look at the following resources:
+Change the gold accent or any color in one place — the entire site updates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Auto-deploys to Vercel on push to `main`.
