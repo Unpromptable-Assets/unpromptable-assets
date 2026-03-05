@@ -3,21 +3,26 @@ import FadeIn from "./FadeIn";
 const testimonials = [
   {
     quote:
-      "Working with Unpromptable completely changed how we approach our marketing pipeline.",
-    name: "Alex R.",
-    role: "Founder",
+      "This was actually the first time I submitted an article that came back with no comments from QA at all — which honestly blew my mind a little. The AI system definitely played a big part in that. It made the writing process smoother and more natural, especially when trying to strike that conversational, human tone.",
+    name: "Islam Ashraf",
+    role: "Researcher",
+    business: "LMSL",
+    businessUrl: "https://lifemanagementsciencelabs.com/",
   },
   {
     quote:
-      "The content system they built saves us 15 hours a week. It's like having an extra team member.",
-    name: "Sarah M.",
-    role: "CEO",
+      "James developed a detailed and accurate description of me and Gratefully Well, then built a custom writing assistant that actually captured my voice. His insights improved not just the tools I was using, but how I approached writing itself.",
+    name: "Julius Torelli",
+    role: "President & Founder",
+    business: "Gratefully Well",
+    businessUrl: "https://www.gratefullywell.com/",
   },
   {
     quote:
-      "I was skeptical about AI, but they made it practical and approachable. Now I can't imagine running without it.",
-    name: "David K.",
-    role: "Business Owner",
+      "The system we built was custom to me — not to sound like anyone else, but to sound like LeiMya's CO-OP and our mission. I needed to be able to explain in one sentence what we stand for, who we are, and how we change the world. We achieved that.",
+    name: "Elais",
+    role: "Co-Founder & Head of Marketing",
+    business: "LeiMya's CO-OP",
   },
 ];
 
@@ -43,7 +48,26 @@ export default function Testimonials() {
                 </p>
                 <div className="mt-6">
                   <p className="font-medium text-foreground">{t.name}</p>
-                  <p className="text-sm text-muted">{t.role}</p>
+                  <p className="text-sm text-muted">
+                    {t.role}
+                    {t.business && (
+                      <>
+                        ,{" "}
+                        {t.businessUrl ? (
+                          <a
+                            href={t.businessUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gold hover:underline"
+                          >
+                            {t.business}
+                          </a>
+                        ) : (
+                          <span>{t.business}</span>
+                        )}
+                      </>
+                    )}
+                  </p>
                 </div>
               </div>
             </FadeIn>
