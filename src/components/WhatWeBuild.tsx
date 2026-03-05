@@ -91,7 +91,7 @@ export default function WhatWeBuild() {
             href="#contact"
             className="inline-block bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
-            Find Out What Your Business Needs &rarr; Take the Diagnostic
+            Find Out What Your Business Needs
           </a>
         </FadeIn>
       </div>

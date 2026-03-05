@@ -69,7 +69,7 @@ export default function HowItWorks() {
             href="#contact"
             className="inline-block bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
-            See Where You Stand &rarr; Take the Diagnostic
+            Join the Waitlist
           </a>
         </FadeIn>
       </div>
