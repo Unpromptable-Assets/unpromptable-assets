@@ -29,6 +29,7 @@ const team = [
     name: "James",
     role: "Strategy & Content",
     initials: "J",
+    image: "/team/james.png",
     bio: "James brings the strategic vision and content expertise. He ensures every system we build is aligned with your business goals and market positioning.",
     substackUrl: "https://unpromptable.substack.com/",
   },
@@ -55,10 +56,18 @@ export default function MeetTheTeam() {
           {team.map((member, i) => (
             <FadeIn key={member.name} delay={i * 150}>
               <div className="bg-white p-8 text-center shadow-sm">
-                <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-background">
-                  <span className="font-serif text-2xl font-bold text-muted">
-                    {member.initials}
-                  </span>
+                <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-background overflow-hidden">
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="h-full w-full object-cover"
+                    />
+                  ) : (
+                    <span className="font-serif text-2xl font-bold text-muted">
+                      {member.initials}
+                    </span>
+                  )}
                 </div>
                 <h3 className="mt-5 font-serif text-xl font-bold text-foreground">
                   {member.name}
