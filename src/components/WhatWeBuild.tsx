@@ -38,7 +38,7 @@ const systems = [
 
 export default function WhatWeBuild() {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-white py-20 md:py-28">
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn>
           <p className="text-xs font-medium uppercase tracking-[0.15em] text-muted">

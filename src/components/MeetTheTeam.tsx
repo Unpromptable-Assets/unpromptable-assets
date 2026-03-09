@@ -44,7 +44,7 @@ const team = [
 
 export default function MeetTheTeam() {
   return (
-    <section id="team" className="bg-background py-20 md:py-28">
+    <section id="team" className="bg-white py-20 md:py-28">
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn>
           <h2 className="text-center font-serif text-3xl font-bold text-foreground md:text-4xl">

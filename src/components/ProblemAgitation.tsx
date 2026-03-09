@@ -8,7 +8,7 @@ const painPoints = [
 
 export default function ProblemAgitation() {
   return (
-    <section className="bg-background py-20 md:py-28">
+    <section className="bg-white py-20 md:py-28">
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn>
           <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
