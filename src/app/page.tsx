@@ -5,6 +5,7 @@ import WhatWeBuild from "@/components/WhatWeBuild";
 import Qualifying from "@/components/Qualifying";
 import ObjectionHandling from "@/components/ObjectionHandling";
 import Testimonials from "@/components/Testimonials";
+import OurMission from "@/components/OurMission";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
@@ -21,6 +22,7 @@ export default function Home() {
         <Qualifying />
         <ObjectionHandling />
         <Testimonials />
+        <OurMission />
         <MeetTheTeam />
         <ContactForm />
         <FAQ />
