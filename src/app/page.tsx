@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ProblemAgitation from "@/components/ProblemAgitation";
 import HowItWorks from "@/components/HowItWorks";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import Qualifying from "@/components/Qualifying";
@@ -17,9 +16,8 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <ProblemAgitation />
-        <HowItWorks />
         <WhatWeBuild />
+        <HowItWorks />
         <Qualifying />
         <ObjectionHandling />
         <Testimonials />

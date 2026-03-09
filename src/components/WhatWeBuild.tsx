@@ -2,37 +2,42 @@ import FadeIn from "./FadeIn";
 
 const systems = [
   {
-    title: "AI-Powered Assessment & Delivery System",
+    title: "AI-Powered Diagnostic Forms",
     description:
-      "Turn your expertise into a lead generation engine that works while you sleep.",
+      "Train AI to deliver customized assessments that qualify, nurture, and book leads for you.",
     bullets: [
-      "40% higher conversion rates",
-      "Customized high-value results for every lead",
-      "Trained on your methodology and expertise",
-      "Automated follow-up sequences",
+      "Automated follow-up sequences to book meetings",
+      "Customized, high-value, branded reports for every lead to boost trust",
+      "Gather deep user intel for market research, nurture sequence, and outreach strategy",
     ],
+    result:
+      "You get: 40% higher conversion rates + deep user data.",
   },
   {
-    title: "Fully Automated Content Ecosystem",
+    title: "Automated Content Ecosystem",
     description:
-      "One idea in. A full week of content out. No burnout required.",
+      "Create AI systems trained on how you create, whatever your media, platform, or skill level.",
     bullets: [
-      "Full pipeline from ideation to repurposing",
-      "Your voice and perspective baked in",
-      "Reclaims 10–15+ hours per week",
-      "Self-updating system that evolves with you",
+      "Your best works built-in as reference",
+      "One input, optimized output on every platform",
+      "Protect your unique presence and maintain trust",
+      "Integrate AI according to your skill level and comfort",
+      "Plug and play builds reclaim your hours and energy from Day 1",
     ],
+    result:
+      "Save 15+ hours every week on content creation. Plus a seamless, consistent presence that builds trust without burnout.",
   },
   {
-    title: "AI Sales Pipeline & Follow-Up Engine",
+    title: "24/7 AI Sales Assistant",
     description:
-      "Stop losing deals to silence. Every lead gets followed up — automatically.",
+      "Build an AI teammate that cold-emails, follows-up, and nurtures leads at all hours of the day.",
     bullets: [
-      "Automated lead scoring and prioritization",
-      "Personalized follow-up at scale",
-      "Full pipeline visibility and reporting",
-      "Recaptures leaking revenue",
+      "Automate lead gathering and personalized outreach",
+      "Automated follow ups ensures you never miss a lead again",
+      "Full pipeline visibility and reporting ensure data-driven decision-making",
     ],
+    result:
+      "Reclaim 30-50% of inbound leads lost and 5-10 hours/week on disorganized follow-ups.",
   },
 ];
 
@@ -45,11 +50,11 @@ export default function WhatWeBuild() {
             Our Work
           </p>
           <h2 className="mt-3 font-serif text-3xl font-bold text-foreground md:text-4xl">
-            What We Build
+            We Build Defensible, AI-Powered Systems
           </h2>
           <p className="mt-4 max-w-[680px] text-lg leading-relaxed text-muted">
-            Every system is custom. Here&rsquo;s what that can look like for
-            you.
+            Automate your business. Build an AI-powered edge your competitors
+            can&rsquo;t copy.
           </p>
         </FadeIn>
 
@@ -74,17 +79,13 @@ export default function WhatWeBuild() {
                     </li>
                   ))}
                 </ul>
+                <p className="mt-5 text-sm font-bold leading-relaxed text-foreground">
+                  {system.result}
+                </p>
               </div>
             </FadeIn>
           ))}
         </div>
-
-        <FadeIn delay={400}>
-          <p className="mx-auto mt-12 max-w-[680px] text-center leading-relaxed text-muted md:mt-14">
-            These are examples of what we can build. Every build we create is
-            bespoke, tailored to your business, bottlenecks, and goals.
-          </p>
-        </FadeIn>
 
         <FadeIn delay={500} className="mt-8 text-center">
           <a
