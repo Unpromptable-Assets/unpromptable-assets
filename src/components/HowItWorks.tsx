@@ -67,7 +67,7 @@ export default function HowItWorks() {
         <FadeIn delay={500} className="mt-14 text-center md:mt-16">
           <a
             href="#contact"
-            className="inline-block bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
+            className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
             Join the Waitlist
           </a>

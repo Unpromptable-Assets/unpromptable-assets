@@ -42,7 +42,7 @@ export default function Testimonials() {
         <div className="mt-12 grid gap-8 md:mt-16 md:grid-cols-3">
           {testimonials.map((t, i) => (
             <FadeIn key={t.name} delay={i * 120}>
-              <div className="flex h-full flex-col border-l-2 border-gold bg-white p-8 shadow-sm">
+              <div className="flex h-full flex-col rounded-lg border-l-2 border-gold bg-white p-8 shadow-sm">
                 <p className="flex-1 text-lg leading-relaxed text-foreground italic">
                   &ldquo;{t.quote}&rdquo;
                 </p>

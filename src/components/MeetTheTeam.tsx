@@ -55,7 +55,7 @@ export default function MeetTheTeam() {
         <div className="mx-auto mt-12 grid max-w-3xl gap-8 md:mt-16 md:grid-cols-2">
           {team.map((member, i) => (
             <FadeIn key={member.name} delay={i * 150}>
-              <div className="bg-white p-8 text-center shadow-sm">
+              <div className="rounded-lg bg-white p-8 text-center shadow-sm">
                 <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-background overflow-hidden">
                   {member.image ? (
                     <img

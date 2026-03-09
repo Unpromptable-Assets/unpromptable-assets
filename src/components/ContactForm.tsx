@@ -51,7 +51,7 @@ export default function ContactForm() {
                     name="name"
                     type="text"
                     required
-                    className="w-full border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
+                    className="w-full rounded-md border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
                   />
                 </div>
 
@@ -67,7 +67,7 @@ export default function ContactForm() {
                     name="email"
                     type="email"
                     required
-                    className="w-full border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
+                    className="w-full rounded-md border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
                   />
                 </div>
 
@@ -83,7 +83,7 @@ export default function ContactForm() {
                     name="business"
                     type="text"
                     required
-                    className="w-full border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
+                    className="w-full rounded-md border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
                   />
                 </div>
 
@@ -99,13 +99,13 @@ export default function ContactForm() {
                     name="description"
                     rows={5}
                     required
-                    className="w-full resize-none border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
+                    className="w-full resize-none rounded-md border border-gray-200 bg-white px-4 py-3 text-foreground transition-colors placeholder:text-gray-400 focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
+                  className="w-full rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
                 >
                   Request a Discovery Call
                 </button>

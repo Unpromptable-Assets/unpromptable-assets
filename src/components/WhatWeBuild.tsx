@@ -56,7 +56,7 @@ export default function WhatWeBuild() {
         <div className="mt-12 grid gap-8 md:mt-16 md:grid-cols-3">
           {systems.map((system, i) => (
             <FadeIn key={system.title} delay={i * 120}>
-              <div className="flex h-full flex-col bg-white p-8 shadow-sm">
+              <div className="flex h-full flex-col rounded-lg bg-white p-8 shadow-sm">
                 <h3 className="font-serif text-lg font-bold text-foreground">
                   {system.title}
                 </h3>
@@ -89,7 +89,7 @@ export default function WhatWeBuild() {
         <FadeIn delay={500} className="mt-8 text-center">
           <a
             href="#contact"
-            className="inline-block bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
+            className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
             Find Out What Your Business Needs
           </a>
