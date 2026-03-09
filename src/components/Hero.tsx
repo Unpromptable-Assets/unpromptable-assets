@@ -2,7 +2,7 @@ import FadeIn from "./FadeIn";
 
 export default function Hero() {
   return (
-    <section className="bg-white pt-28 pb-20 md:pt-36 md:pb-28">
+    <section className="bg-white pt-28 pb-24 md:pt-36 md:pb-32">
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn className="mx-auto max-w-3xl text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
@@ -24,6 +24,10 @@ export default function Hero() {
               Take the Free Diagnostic
             </a>
           </div>
+
+          <p className="mt-8 text-sm text-muted md:text-base">
+            10+ products shipped ● 25k cumulative audience ● 100+ paying users
+          </p>
         </FadeIn>
       </div>
     </section>
