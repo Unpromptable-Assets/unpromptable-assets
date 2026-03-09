@@ -25,7 +25,7 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="mt-8 text-sm text-muted md:text-base">
+          <p className="mt-8 text-lg italic leading-relaxed text-muted md:text-xl">
             10+ products shipped ● 25k cumulative audience ● 100+ paying users
           </p>
         </FadeIn>
