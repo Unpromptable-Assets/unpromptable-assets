@@ -92,7 +92,7 @@ export default function WhatWeBuild() {
             href="#contact"
             className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
-            Find Out What Your Business Needs
+            I want a system like this
           </a>
         </FadeIn>
       </div>
