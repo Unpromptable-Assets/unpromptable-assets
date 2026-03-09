@@ -4,24 +4,28 @@ const steps = [
   {
     number: "01",
     title: "Discovery Call",
+    timeline: "Week 1",
     description:
-      "We start with a conversation. You tell us where your business is, where you want it to be, and what's getting in the way. No pitch. No pressure. Just clarity.",
+      "We'll assess your fit through the waitlist. If you qualify, we start with a conversation. You tell us where your business is, where you want it to be, and what's getting in the way.",
   },
   {
     number: "02",
     title: "Audit",
+    timeline: "Weeks 1-2",
     description:
       "We dig into your workflows, tools, and operations to identify exactly where AI can create the most impact. You get a clear map of what to build and why.",
   },
   {
     number: "03",
     title: "Build",
+    timeline: "Week 2-3",
     description:
       "We design and build your custom AI-powered system — done with you, not for you. Every piece is tailored to how your business actually runs.",
   },
   {
     number: "04",
     title: "Handoff & Training",
+    timeline: "Week 3-4",
     description:
       "We hand you the keys and make sure you know how to drive. You walk away with a system you own, understand, and can operate independently.",
   },
@@ -55,6 +59,9 @@ export default function HowItWorks() {
                   <h3 className="font-serif text-xl font-bold text-foreground">
                     {step.title}
                   </h3>
+                  <p className="mt-1 text-sm font-medium text-muted">
+                    {step.timeline}
+                  </p>
                   <p className="mt-3 max-w-md leading-relaxed text-muted">
                     {step.description}
                   </p>
@@ -65,12 +72,21 @@ export default function HowItWorks() {
         </div>
 
         <FadeIn delay={500} className="mt-14 text-center md:mt-16">
+          <p className="mx-auto mb-8 max-w-[680px] text-lg leading-relaxed text-muted">
+            We work closely with our clients to forge systems aligned with their
+            values, tools, and goals. As a result, we can only take on{" "}
+            <strong>6 clients per quarter.</strong> We assess fit through our
+            free diagnostic and then add you to the waitlist.
+          </p>
           <a
             href="#contact"
             className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
-            Join the Waitlist
+            Take the AI Readiness Diagnostic
           </a>
+          <p className="mt-6 text-lg italic leading-relaxed text-muted">
+            Over 20+ entries on our waitlist.
+          </p>
         </FadeIn>
       </div>
     </section>
