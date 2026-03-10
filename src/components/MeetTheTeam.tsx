@@ -37,6 +37,7 @@ const team = [
     name: "Jenny",
     role: "Builder & Developer",
     initials: "J",
+    image: "/team/jenny.png",
     bio: "Jenny is the technical architect who turns strategy into working systems. She builds custom AI solutions that are reliable, maintainable, and tailored to your workflow.",
     substackUrl: "https://buildtolaunch.substack.com/",
   },
