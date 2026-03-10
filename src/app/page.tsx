@@ -7,6 +7,7 @@ import ObjectionHandling from "@/components/ObjectionHandling";
 import Testimonials from "@/components/Testimonials";
 import OurMission from "@/components/OurMission";
 import MeetTheTeam from "@/components/MeetTheTeam";
+import Newsletter from "@/components/Newsletter";
 import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default function Home() {
         <Testimonials />
         <OurMission />
         <MeetTheTeam />
+        <Newsletter />
         <ContactForm />
         <FAQ />
       </main>
