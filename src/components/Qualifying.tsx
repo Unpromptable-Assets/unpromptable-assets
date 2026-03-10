@@ -3,14 +3,15 @@ import FadeIn from "./FadeIn";
 const forYou = [
   "You run a real business with revenue and clients",
   "You're tired of piecemeal AI experiments that go nowhere",
-  "You want to be involved in the build — not just handed a black box",
   "You're ready to invest in infrastructure that compounds over time",
+  "You want to be involved in the build — not just handed a black box",
+  "You're ready to build a future-proof, AI-integrated, defensible business",
 ];
 
 const notForYou = [
-  "You're looking for a quick hack or magic button",
+  "You don't have a business yet",
+  "You think AI is a quick hack or a magic tool",
   "You want someone to just \"do it\" with zero involvement on your part",
-  "You don't have a business yet — you're still in the idea phase",
 ];
 
 export default function Qualifying() {
