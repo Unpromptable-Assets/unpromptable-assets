@@ -27,9 +27,26 @@ export default function Hero() {
             </a>
           </div>
 
-          <p className="mt-8 text-lg italic leading-relaxed text-muted md:text-xl">
-            10+ products shipped ● 25k cumulative audience ● 100+ paying users
-          </p>
+          <div className="mt-8 flex justify-center gap-12 md:gap-16">
+            <div className="text-center">
+              <p className="font-serif text-3xl font-bold text-gray-400 md:text-4xl">
+                10+
+              </p>
+              <p className="mt-1 text-sm text-muted">Products shipped</p>
+            </div>
+            <div className="text-center">
+              <p className="font-serif text-3xl font-bold text-gray-400 md:text-4xl">
+                25k
+              </p>
+              <p className="mt-1 text-sm text-muted">Audience</p>
+            </div>
+            <div className="text-center">
+              <p className="font-serif text-3xl font-bold text-gray-400 md:text-4xl">
+                100+
+              </p>
+              <p className="mt-1 text-sm text-muted">Paying users</p>
+            </div>
+          </div>
         </FadeIn>
       </div>
     </section>
