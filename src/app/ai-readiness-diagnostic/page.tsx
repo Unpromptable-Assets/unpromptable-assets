@@ -11,7 +11,7 @@ export default function DiagnosticLandingPage() {
 
   // Intersection Observer for scroll animations
   const useInView = () => {
-    const ref = useRef(null);
+    const ref = useRef<HTMLDivElement>(null);
     const [isInView, setIsInView] = useState(false);
 
     useEffect(() => {
@@ -31,7 +31,7 @@ export default function DiagnosticLandingPage() {
       return () => observer.disconnect();
     }, []);
 
-    return [ref, isInView];
+    return [ref, isInView] as const;
   };
 
   const [heroRef, heroInView] = useInView();
