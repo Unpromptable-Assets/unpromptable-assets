@@ -47,6 +47,8 @@ export default function Navbar() {
 
         <a
           href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden bg-foreground px-5 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-gold md:inline-flex"
         >
           Take the Diagnostic
@@ -93,6 +95,8 @@ export default function Navbar() {
           ))}
           <a
             href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
             className="mt-2 block bg-foreground py-3 text-center text-sm font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
