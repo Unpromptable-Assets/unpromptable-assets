@@ -78,7 +78,7 @@ export default function HowItWorks() {
             <strong>6 clients per quarter.</strong>
           </p>
           <a
-            href="#contact"
+            href="https://www.unpromptable.dev/ai-readiness-diagnostic"
             className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
             Save Your Spot

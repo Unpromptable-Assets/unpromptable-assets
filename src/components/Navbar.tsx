@@ -6,7 +6,6 @@ const links = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "About Us", href: "#team" },
   { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -46,7 +45,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="#contact"
+          href="https://www.unpromptable.dev/ai-readiness-diagnostic"
           className="hidden bg-foreground px-5 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-gold md:inline-flex"
         >
           Take the Diagnostic
@@ -92,7 +91,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="https://www.unpromptable.dev/ai-readiness-diagnostic"
             onClick={() => setMenuOpen(false)}
             className="mt-2 block bg-foreground py-3 text-center text-sm font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
