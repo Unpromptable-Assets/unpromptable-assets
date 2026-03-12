@@ -73,19 +73,19 @@ export default function HowItWorks() {
 
         <FadeIn delay={500} className="mt-14 text-center md:mt-16">
           <p className="mx-auto mb-8 max-w-[680px] text-lg leading-relaxed text-muted">
-            We work closely with our clients to forge systems aligned with their
-            values, tools, and goals. As a result, we can only take on{" "}
-            <strong>6 clients per quarter.</strong> We assess fit through our
-            free diagnostic and then add you to the waitlist.
+            We&rsquo;ll work closely with you to forge systems that align with
+            your values, tools, and goals. As a result, we can only take on{" "}
+            <strong>6 clients per quarter.</strong>
           </p>
           <a
             href="#contact"
             className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
-            Take the AI Readiness Diagnostic
+            Save Your Spot
           </a>
           <p className="mt-6 text-lg italic leading-relaxed text-muted">
-            Over 20+ entries on our waitlist.
+            Join 20+ founders on the waitlist. We&rsquo;ll reach out when
+            there&rsquo;s space, but waitlisting is 100% commitment-free.
           </p>
         </FadeIn>
       </div>

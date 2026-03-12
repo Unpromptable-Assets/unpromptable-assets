@@ -21,7 +21,7 @@ export default function Hero() {
               href="#contact"
               className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
             >
-              Take the Free Diagnostic
+              Take the AI Readiness Assessment
             </a>
           </div>
 
