@@ -89,7 +89,7 @@ export default function WhatWeBuild() {
 
         <FadeIn delay={500} className="mt-8 text-center">
           <a
-            href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+            href="#contact"
             className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"
           >
             I want a system like this

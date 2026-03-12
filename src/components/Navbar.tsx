@@ -6,6 +6,7 @@ const links = [
   { label: "How It Works", href: "#how-it-works" },
   { label: "About Us", href: "#team" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
