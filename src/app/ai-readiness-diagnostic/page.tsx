@@ -103,8 +103,6 @@ export default function DiagnosticLandingPage() {
           </a>
           <a
             href="https://forms.fillout.com/t/x5SAyqH94ous"
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn-hover"
             style={{
               backgroundColor: gold,
@@ -165,8 +163,6 @@ export default function DiagnosticLandingPage() {
               >
                 <a
                   href="https://forms.fillout.com/t/x5SAyqH94ous"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="btn-hover"
                   style={{
                     backgroundColor: gold,
@@ -652,8 +648,6 @@ export default function DiagnosticLandingPage() {
           </p>
           <a
             href="https://forms.fillout.com/t/x5SAyqH94ous"
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn-hover"
             style={{
               backgroundColor: gold,
