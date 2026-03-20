@@ -2,7 +2,7 @@ import FadeIn from "./FadeIn";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-screen items-center bg-white pt-20">
+    <section className="flex min-h-[600px] items-center bg-white py-20 md:min-h-screen md:pt-20">
       <div className="mx-auto w-full max-w-[1200px] px-6">
         <FadeIn className="mx-auto max-w-3xl text-center">
           <h1 className="font-serif text-4xl font-bold leading-tight text-foreground md:text-5xl lg:text-6xl">
