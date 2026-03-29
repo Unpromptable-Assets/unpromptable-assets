@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/ai-readiness-diagnostic/:path*",
-      "destination": "https://ai-readiness-quiz-weld.vercel.app/:path*",
-      "permanent": true
+      "destination": "https://ai-readiness-quiz-weld.vercel.app/:path*"
     }
   ]
 }
