@@ -10,7 +10,7 @@ const faqs = [
       "Most agencies use no-code tools to stitch together generic apps that break the moment your business outgrows them. We build custom systems around your specific business logic — your workflows, your edge cases, your growth trajectory. The result is infrastructure you can scale on, not a patchwork you'll need to replace in six months.",
   },
   {
-    question: "What is "The Diagnostic"?",
+    question: "What is \"The Diagnostic\"?",
     answer:
       "The Diagnostic is a strategic assessment of your operations, workflows, and growth bottlenecks — mapped against where AI can create the most leverage in your specific business. We built it because roughly 80% of AI projects fail when teams skip the strategy phase and jump straight to building. The Diagnostic makes sure we're solving the right problem before a single line of code is written.",
   },
