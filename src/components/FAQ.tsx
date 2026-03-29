@@ -5,29 +5,29 @@ import FadeIn from "./FadeIn";
 
 const faqs = [
   {
-    question: "How long does the process take?",
+    question: "How is this different from a standard agency?",
     answer:
-      "Most engagements run 4–8 weeks depending on complexity. We'll give you a clear timeline after the audit.",
+      "Most agencies use no-code tools to stitch together generic apps that break the moment your business outgrows them. We build custom systems around your specific business logic — your workflows, your edge cases, your growth trajectory. The result is infrastructure you can scale on, not a patchwork you'll need to replace in six months.",
   },
   {
-    question: "What kind of AI tools do you work with?",
+    question: "What is "The Diagnostic"?",
     answer:
-      "We're tool-agnostic. We use whatever serves your business best — from ChatGPT and Claude to custom automations, APIs, and workflow tools.",
+      "The Diagnostic is a strategic assessment of your operations, workflows, and growth bottlenecks — mapped against where AI can create the most leverage in your specific business. We built it because roughly 80% of AI projects fail when teams skip the strategy phase and jump straight to building. The Diagnostic makes sure we're solving the right problem before a single line of code is written.",
   },
   {
-    question: "Do I need to be involved in the build?",
+    question: "Who is your typical client?",
     answer:
-      "Yes — and that's by design. This is done-with-you, not done-for-you. Your involvement means you understand and own every piece.",
+      "If any of this feels like you, we're a 100% fit: You're running a growing business, experimented with ChatGPT, maybe set up a few automations — but you know there's a bigger play and you don't have the time or the technical team to figure it out. You're not looking for a chatbot. You want systems that remove bottlenecks, free up your time, and help you scale without scaling headcount.",
   },
   {
     question: "What happens after the system is delivered?",
     answer:
-      "You own it completely. We do a full handoff with training. Optional ongoing support is available.",
+      "You own everything we build — the code, the logic, the infrastructure. Every system is designed to run independently, and we hand over full documentation and walk your team through how it works. If you want ongoing iteration or new builds, we offer retained partnerships, but the system works without us.",
   },
   {
-    question: "How much does it cost?",
+    question: "How much does a custom build cost?",
     answer:
-      "Every engagement is custom-scoped. The best way to get a clear picture is to take the diagnostic or book a discovery call — no obligation.",
+      "Most projects fall between £5,000 and £15,000 depending on complexity. We scope everything after The Diagnostic, so you know exactly what you're paying for before we start. Most builds pay for themselves within the first quarter.",
   },
 ];
 
@@ -87,7 +87,7 @@ export default function FAQ() {
     <section className="bg-white py-20 md:py-28">
       <div className="mx-auto max-w-[1200px] px-6">
         <FadeIn>
-          <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">
+          <h2 className="font-serif text-3xl font-bold text-foreground text-center md:text-4xl">
             Frequently Asked Questions
           </h2>
         </FadeIn>

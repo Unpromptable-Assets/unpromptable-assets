@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-[680px] text-lg leading-relaxed text-muted md:mt-8 md:text-xl">
-            We build custom AI-powered systems for business owners who want an
+            We build custom AI-powered systems for <strong>founder-led, mission-driven service businesses</strong> who want an
             irreplaceable edge in marketing, operations, and sales. Take the
             free diagnostic to find out where you stand.
           </p>
@@ -32,7 +32,7 @@ export default function Hero() {
               <p className="font-serif text-3xl font-bold text-gray-400 md:text-4xl">
                 10+
               </p>
-              <p className="mt-1 text-sm text-muted">Products shipped</p>
+              <p className="mt-1 text-sm text-muted">Systems shipped</p>
             </div>
             <div className="text-center">
               <p className="font-serif text-3xl font-bold text-gray-400 md:text-4xl">
