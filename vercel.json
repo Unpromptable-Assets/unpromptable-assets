@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/ai-readiness-diagnostic/:path*",
-      "destination": "https://ai-readiness-quiz-weld.vercel.app/:path*"
-    }
-  ]
-}
