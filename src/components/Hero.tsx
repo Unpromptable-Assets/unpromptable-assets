@@ -18,7 +18,7 @@ export default function Hero() {
 
           <div className="mt-8 md:mt-10">
             <a
-              href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+              href="https://diagnostic.unpromptable.dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-md bg-foreground px-8 py-4 text-base font-medium text-white transition-colors duration-200 hover:bg-gold"

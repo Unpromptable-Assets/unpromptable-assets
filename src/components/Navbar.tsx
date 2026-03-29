@@ -46,7 +46,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+          href="https://diagnostic.unpromptable.dev/"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden bg-foreground px-5 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-gold md:inline-flex"
@@ -94,7 +94,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://www.unpromptable.dev/ai-readiness-diagnostic"
+            href="https://diagnostic.unpromptable.dev/"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
